@@ -1,0 +1,15 @@
+---
+title: "C# rocks"
+date: 2019-06-17T23:53:00+01:00
+draft: false
+hideLastModified: true
+tags: ["C#", "code"]
+---
+
+This is the real text of the article. 
+
+```python
+def sum_function(a, b):
+    c = a + b
+    return c
+```

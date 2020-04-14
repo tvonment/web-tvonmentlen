@@ -1,6 +1,6 @@
 baseURL: https://thomas.vonmentlen.info
 languageCode: en-us
-title: Personal website and blog
+title: Personal blog
 theme: hugo-refresh
 # theme: ../..
 
@@ -44,9 +44,9 @@ params:
   favicon: "/images/favicon.svg"
 
   # parameter used to specify if you want to minify the imported js
-  jsMinify: false
+  jsMinify: true
   # parameter used to specify if you want to minify the imported css
-  cssMinify: false
+  cssMinify: true
   # option to specify the main colour of the theme
   mainColour: "#051e3e"
 
@@ -102,7 +102,7 @@ params:
     # option to specify the title in the homepage
     title: Thomas von Mentlen
     # option to specify the subtitle in the homepage
-    subtitle: Personal website and blog
+    subtitle: Personal Blog
     # option to specify image in the homepage
     image: "/images/portrait.png" # worker.svg
     # option to specify the width of the image in the homepage
