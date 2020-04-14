@@ -1,0 +1,23 @@
+trigger:
+- master
+
+pool:
+  vmImage: "windows-2019"
+
+steps:
+- checkout: self
+  displayName: 'Checkout repository including submodules'
+  submodules: true  # true so Hugo theme submodule is checked out
+
+- task: HugoTask@1
+  displayName: 'Generate Hugo site'
+  inputs:
+    hugoVersion: latest
+    extendedVersion: true
+    destination: '$(Build.ArtifactStagingDirectory)'
+
+- task: PublishPipelineArtifact@0
+  displayName: 'Publish Hugo site as artifact'
+  inputs:
+    artifactName: 'hugo-site'
+    targetPath: '$(Build.ArtifactStagingDirectory)'
