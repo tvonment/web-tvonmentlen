@@ -6970,8 +6970,7 @@ div.nav-item.is-drop a {
 div.nav-item.is-drop:hover .dropContain .dropOut {
   opacity: 1; }
 
-div.nav-item.is-drop:hover,
-div.nav-item.is-drop:hover a {
+div.nav-item.is-drop:hover, div.nav-item.is-drop:hover a {
   border-bottom: 1px solid transparent !important;
   color: #051e3e; }
 
@@ -7006,11 +7005,11 @@ div.nav-item.is-drop {
       -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
       -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
       box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
-      -webkit-transition: all 0.5s ease-out;
-      -moz-transition: all 0.5s ease-out;
-      -ms-transition: all 0.5s ease-out;
-      -o-transition: all 0.5s ease-out;
-      transition: all 0.5s ease-out; }
+      -webkit-transition: all .5s ease-out;
+      -moz-transition: all .5s ease-out;
+      -ms-transition: all .5s ease-out;
+      -o-transition: all .5s ease-out;
+      transition: all .5s ease-out; }
     div.nav-item.is-drop .dropContain .dropOut .triangle {
       width: 0;
       height: 0;
@@ -7031,11 +7030,11 @@ div.nav-item.is-drop {
       -webkit-border-radius: 4px;
       -moz-border-radius: 4px;
       border-radius: 4px;
-      -webkit-transition: background 0.1s ease-out;
-      -moz-transition: background 0.1s ease-out;
-      -ms-transition: background 0.1s ease-out;
-      -o-transition: background 0.1s ease-out;
-      transition: background 0.1s ease-out; }
+      -webkit-transition: background .1s ease-out;
+      -moz-transition: background .1s ease-out;
+      -ms-transition: background .1s ease-out;
+      -o-transition: background .1s ease-out;
+      transition: background .1s ease-out; }
       div.nav-item.is-drop .dropContain .dropOut ul li:hover {
         background: #eff4f7;
         cursor: pointer; }
