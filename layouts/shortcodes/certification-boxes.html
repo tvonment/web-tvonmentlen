@@ -1,0 +1,26 @@
+{{ if .Site.Data.certifications.enable }}
+{{ "<!-- certifications Section Start -->" | safeHTML }}
+
+<section id="certifications">
+    {{ range $index, $element := .Site.Data.certifications.item }}
+    <div class="box">
+        <div class="columns">
+            <div class="column is-4">
+                <figure>
+                    {{ with .acclaim_link }}<a target="_blank" href="{{ . }}">{{ end }}
+                        {{ with .img }}<img class="cert-badge" src="{{ . }}" alt="{{ . }}">{{ end }}
+                    </a>
+                </figure>
+            </div>
+            <div class="column">
+                {{ with .title }}<p class="title is-4">{{ . }}</p>
+                {{ end }}
+                {{ with .description }}<p>
+                    {{ . | safeHTML }}</p>{{ end }}
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</section>
+{{ "<!-- Feature Section End -->" | safeHTML }}
+{{ end }}

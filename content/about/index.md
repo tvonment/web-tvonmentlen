@@ -6,4 +6,7 @@ hideLastModified: true
 showInMenu: true
 # no need for the "summary" parameter as it is not displayed in any previews
 ---
-Something cool about me.
+Something cool about me. And so on
+
+
+{{< certification-boxes >}}
