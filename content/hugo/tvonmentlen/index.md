@@ -1,11 +1,11 @@
 ---
-title: "This Website"
-date: 2020-05-09T23:53:00+01:00
+title: "This WebSite"
+date: 2019-06-17T23:53:00+01:00
 draft: false
 hideLastModified: true
-summary: "Existance of this Website"
+summary: "The summary image should be a custom one"
 summaryImage: "preview.png"
-tags: ["hugo", "blog"]
+tags: ["hugo", "web"]
 ---
 
-This is the Post for this Website.
+This is the real text of the article. 
