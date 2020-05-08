@@ -44,9 +44,9 @@ params:
   favicon: "/images/favicon.svg"
 
   # parameter used to specify if you want to minify the imported js
-  jsMinify: false
+  jsMinify: true
   # parameter used to specify if you want to minify the imported css
-  cssMinify: false
+  cssMinify: true
   # option to specify the main colour of the theme
   mainColour: "#051e3e"
 
@@ -54,7 +54,7 @@ params:
   summary:
     # option to specify the default image in the summary list
     # the starting folder is configure in "assetDir" of this file
-    defaultImage: "/images/default_summary.jpg"
+    defaultImage: "/images/default.jpg"
 
   # loading options
   loading:
@@ -84,7 +84,7 @@ params:
   pagNotFound:
     # option to specify the main picture of the sidebar
     # the starting folder is configure in "assetDir" of this file
-    image: "/images/avataaars_404.png"
+    image: "/images/portrait.png"
     # option to specify the title of the 404 page
     title: 404 Page Not Found :(
     # option to specify the subtitle of the 404 page
