@@ -1,12 +1,12 @@
 ---
-title: "About Me"
-date: 2019-06-17T23:53:00+01:00
-draft: false
-hideLastModified: true
+title: About Me
+date: 2020-05-08T22:53:00+00:00
+hideLastModified: false
 showInMenu: true
-# no need for the "summary" parameter as it is not displayed in any previews
----
-Something cool about me. And so on
 
+---
+I'm Thomas, a Cloud Consultant, Developer and MCT. 
+
+## Certifications
 
 {{< certification-boxes >}}
