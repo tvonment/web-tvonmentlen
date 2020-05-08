@@ -5,7 +5,7 @@ hideLastModified: false
 showInMenu: true
 
 ---
-I'm Thomas, a Cloud Consultant, Developer and MCT. 
+I'm Thomas, a Cloud Consultant, Developer and MCT.
 
 ## Certifications
 
