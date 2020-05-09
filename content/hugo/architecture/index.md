@@ -1,10 +1,10 @@
 ---
-title: "This Architecture"
+title: "Hugo Architecture"
 date: 2019-06-17T23:53:00+01:00
 draft: false
 hideLastModified: true
-summary: "The summary image should be a custom one"
-tags: ["hugo", "web"]
+summary: "The full Architecture of an Hugo Site running in Azure"
+tags: ["hugo", "architecture", "azure"]
 ---
 
-This is the real text of the article. 
+Here will come a full documentation how to run a Hugo Website in an Azure Storage Account.
